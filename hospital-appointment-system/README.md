@@ -74,27 +74,32 @@ A **production-ready RESTful API** built with Java Spring Boot for managing hosp
 
 ### Steps
 
-1. **Clone the repository**
+**1. Clone the repository**
 ```bash
 git clone https://github.com/rashitha-r/hospital-appointment-system.git
 cd hospital-appointment-system
 ```
 
-2. **Create MySQL database**
+**2. Create MySQL database**
 ```sql
 CREATE DATABASE hospital_db;
 ```
 
-3. **Configure application.properties**
+**3. Configure application.properties**
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/hospital_db
 spring.datasource.username=root
 spring.datasource.password=YOUR_PASSWORD
 ```
 
-4. **Run the application**
+**4. Run the application**
 ```bash
 mvn spring-boot:run
+```
+
+**5. Access the API**
+```
+http://localhost:8080
 ```
 
 ## 📁 Project Structure
